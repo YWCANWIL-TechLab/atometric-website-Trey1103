@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+body{
+background: #878e88;
+background: -webkit-linear-gradient(178deg, #878e88 0%, #535b75 100%);
+background: linear-gradient(178deg, #878e88 0%, #535b75 100%);
+}
+h1{
+    font-family: 'oswald',sans-serif;
+}
+#sum{
+    font-size: 50px;
+    height: 100vh;
+    font-family: 'oswald',sans-serif;
+}

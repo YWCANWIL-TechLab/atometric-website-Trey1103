@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+    *{margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+}
+p{
+    color: whitesmoke;
+    font-size: 3em;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    background: #878e88;
+    background: -webkit-linear-gradient(178deg, #878e88 0%, #535b75 100%);
+    background: linear-gradient(178deg, #878e88 0%, #535b75 100%);
+}
+#img1{
+    float: right;
+}
+.logo{
+    color: #c6d0c7;
+    font-size:7rem;
+    text-decoration:none;
+    font-weight: 700;
+}
+
+
+
+#img2 {
+    float: left;
+    margin-right: 20px; /* Adjust the spacing between the image and text as needed */
+    padding-top:10% ;
+}
+
+#content {
+    overflow: hidden; /* Clear float and contain the floated image */
+}
+
+#homepage {
+    /* margin-left: 30%; Adjust the value to control the width of the text column */
+    /* padding-top:10% ; */
+}

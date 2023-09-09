@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #878e88;
+    background: -webkit-linear-gradient(178deg, #878e88 0%, #535b75 100%);
+    background: linear-gradient(178deg, #878e88 0%, #535b75 100%);
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#img1{
+    display: inline-block;
+    width: 49%;
+}
+
+#img2{
+    display: inline-block;
+    width: 49%;
+    
+}
+#wrench{
+display: inline-block;
+width: 49%;
+padding-left: 0;
+font-size: 50px;
+}
+.wrench{
+    font-size: 2em;
+}
+#float{
+    display: inline-block;
+    width: 49%;
+    font-size: 50px;
+    line-height: 2;
+    position: relative;
+    bottom: 4em;
+    font-family: 'Oswald', sans-serif;
+}
